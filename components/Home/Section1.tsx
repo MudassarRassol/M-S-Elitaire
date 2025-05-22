@@ -37,13 +37,15 @@ const Section1 = () => {
     }, "-=1.2")
 
     // Text animation with staggered elements
-    tl.from(textRef.current.querySelectorAll('*'), {
-      y: 60,
-      opacity: 0,
-      duration: 1.2,
-      stagger: 0.15,
-      ease: "back.out(1.2)"
-    }, "-=1.5")
+    if (textRef.current) {
+      tl.from(textRef.current.querySelectorAll('*'), {
+        y: 60,
+        opacity: 0,
+        duration: 1.2,
+        stagger: 0.15,
+        ease: "back.out(1.2)"
+      }, "-=1.5")
+    }
 
     // Button animation with subtle pulse
     tl.from(buttonRef.current, {
