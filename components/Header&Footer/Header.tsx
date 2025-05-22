@@ -62,7 +62,7 @@ const Navbar = () => {
   );
 
   return (
-    <header className="sticky top-0 z-50 border-b p-1 bg-[#0000006c] ">
+    <header className="sticky top-0 z-50 border-b p-1 bg-[#000000c0] ">
       {/* Desktop Navbar */}
       <div className="hidden md:flex justify-between items-center container mx-auto px-6 h-16">
         {/* Left - Logo */}
