@@ -1,0 +1,27 @@
+
+
+.custom-add-to-cart-btn {
+  margin:  0 10;
+  color: #c79e60 !important;
+  outline: none !important;
+  border: none !important;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.custom-add-to-eye-btn {
+  /* background-color: #c79e60 !important; */
+  margin:  0 10;
+  color: #c79e60 !important;
+  outline: none !important;
+  border: none !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-add-to-eye-btn:hover {
+  box-shadow: none !important;
+  filter:  drop-shadow(0 0 0) !important;
+  background-color: transparent !important;
+  color: #c79e60 !important;
+  transform: scale(1.2) !important;
+}
